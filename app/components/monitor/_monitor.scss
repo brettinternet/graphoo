@@ -1,0 +1,28 @@
+.time-select-component {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+
+  .time-icon {
+    font-size: 2em;
+    color: $green;
+  }
+
+  a {
+    opacity: .75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    width: 70px;
+
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

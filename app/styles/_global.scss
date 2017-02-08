@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  position: relative;
+  margin: 0;
+  color: white;
+  height: 100vh;
+  background-color: $body;
+  // background-image: linear-gradient(0deg, rgba(47, 66, 64, 0.5) 10%, rgba(9, 9, 9, .7));
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  overflow-y: hidden;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -.025em;
+  color: #fff;
+  outline: none;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  background-color: inherit;
+  outline: none;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darken($body, 8%);
+  padding: 3px 5px;
+  width: 70px;
+  background-color: darken($body, 3.5%);
+  font-size: 1em;
+}
+
+section {
+  height: 100vh;
+  margin: 0 10px 10px 80px;
+  padding-top: 20px;
+}
